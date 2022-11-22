@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+}
+
+#search-box {
+  font: inherit;
+  max-width: 320px;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.btn {
+  font: inherit;
+  padding: 8px;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.js-articles-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.js-contries-container {
+  padding-left: 5px;
+}
+
+li {
+  max-width: 480px;
+  margin: 0 20px;
+  list-style: none;
+}
+
+.img-of-country {
+  margin-left: 10px;
+  display: inline;
+}
+
+/*# sourceMappingURL=artisan-2.77a9bc14.css.map */
