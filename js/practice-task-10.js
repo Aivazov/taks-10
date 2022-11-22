@@ -50,7 +50,7 @@ function renderCountry(data) {
   const langs = Object.values(data.languages).join(', ');
 
   const markup = `
-    <img src='${data.flags.svg}' width='28'  />
+    <img src='${data.flags.svg}' width='32'  />
     <h1 class='img-of-country'>${data.name.official}</h1>
     <p><strong>Capital:</strong> ${data.capital}</p>
     <p><strong>Population:</strong> ${data.population}</p>
