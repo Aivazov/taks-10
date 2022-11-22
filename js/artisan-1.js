@@ -1,7 +1,7 @@
-import '../css/styles.css';
+// import '../css/styles.css';
 // import articlesTpl from './helpers/articles.hbs';
-import NewsApiService from './helpers/NewsApiService';
-import { moveToTheTop } from './helpers/moveTopBtn';
+import NewsApiService from './helpers/NewsApiService.js';
+import { moveToTheTop } from './helpers/moveTopBtn.js';
 
 // import renderingArticlesFrom from './helpers/renderingArticles.js';
 
